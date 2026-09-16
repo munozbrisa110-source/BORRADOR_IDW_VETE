@@ -1,21 +1,32 @@
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <title>La Mary - Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Veterinaria La Mary</title>
+
     <link rel="stylesheet" href="estilos/basico.css">
     <link rel="stylesheet" href="estilos/base.css">
-    <link rel="stylesheet" href="estilos/contacto.css">
+    <link rel="stylesheet" href="estilos/contactos.css">
 </head>
 
 <body>
+
     <header>
-        <div class="marca"> <img src="assets/imagen/logo1.png" alt="Logo La Mary" class="icono-logo" width="60">
+        <div class="marca">
+            <img src="assets/imagen/logo1.png"
+                 alt="Logo La Mary"
+                 class="icono-logo"
+                 width="60">
+
             <div class="texto-marca">
                 <h1>La Mary</h1>
                 <h2>Clínica Veterinaria</h2>
             </div>
         </div>
+
         <nav class="navegacion">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -23,31 +34,72 @@
                 <li><a href="contactos.html" class="activo">Contacto</a></li>
             </ul>
         </nav>
-    </header> <!-- CONTENIDO PRINCIPAL -->
+    </header>
+
+
+    <!-- Principal -->
     <main class="pagina-contacto">
-        <p><a href="Pedir_Turnos.html" id="link-pedir-turnos"> 🐾 Pedir Turnos</a></p>
-        <section class="contacto-seccion-principal"> <!-- Columna Izquierda: Información -->
+
+        <!-- información de contacto -->
+        <section class="contacto-seccion-principal">
             <div class="contacto-info">
                 <h1>Contacto</h1>
-                <h2>Comunicate con nuestro equipo médico y administrativo a través de nuestros canales oficiales:</h2>
+
+                <h2 class="subtitulo-contacto">
+                    Comunicate con nuestro equipo médico y administrativo
+                    a través de nuestros canales oficiales:
+                </h2>
+
                 <div class="datos-contacto">
-                    <p><img src="assets/imagen/whatsapp_10.png" alt="WhatsApp" class="icono-contacto">
-                        <strong>WhatsApp:</strong> 3454056923</p>
-                    <p><strong> ✉ Email:</strong> <a href="mailto:veterinarialamary@gob.ar">veterinarialamary@gob.ar</a>
+                    <p>
+                        <img src="assets/imagen/whatsapp_10.png"
+                             alt="WhatsApp"
+                             class="icono-contacto">
+
+                        <strong>WhatsApp:</strong> 3454056923
                     </p>
-                    <p><strong> 📍 Dirección:</strong> Gdor. Gral. Balcarce 327, Concordia, Entre Ríos</p>
+                    <p>
+                        <strong>✉ Email:</strong>
+                        <a href="mailto:veterinarialamary@gob.ar">
+                            veterinarialamary@gob.ar
+                        </a>
+                    </p>
+                    <p>
+                        <strong>📍 Dirección:</strong>
+                        Gdor. Gral. Balcarce 327, Concordia, Entre Ríos
+                    </p>
                 </div>
-            </div> <!-- Columna Derecha: Imagen -->
-            <div class="contacto-imagen"> <img src="assets/imagen/imagen09.jfif" alt="imagen de contacto"> </div>
+            </div>
+
+
+            <!-- imagen -->
+            <div class="contacto-imagen">
+                <img src="assets/imagen/imagen09.jfif"
+                     alt="Imagen de contacto">
+            </div>
+
         </section>
-        <article class="mapa"> <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.22914108 87108!2d-58.0235525!3d-31.3859962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13 .1!3m3!1m2!1s0x95ade816b7f57551%3A0x95270adb0f221cf8!2sGdor.%20Gral.%20 Balcarce%20327%2C%20E3202%20Concordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1s es!2sar!4v1700000000000!5m2!1ses!2sar"
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe> </article>
-        <!--TABLA DE HORARIOS DE ATENCIÓN-->
-        <section>
+
+
+        <!--ubicación-->
+        <section class="ubicacion">
+
+            <article class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2291410887108!2d-58.0235525!3d-31.3859962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade816b7f57551%3A0x95270adb0f221cf8!2sGdor.%20Gral.%20Balcarce%20327%2C%20E3202%20Concordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+
+
+            <!-- TABLA DE HORARIOS -->
             <article class="tabla">
-                <h2>Horarios de Atención</h2>
+
+                <h2>Horarios de atención</h2>
+
                 <table>
+
                     <thead>
                         <tr>
                             <th>Día</th>
@@ -55,36 +107,70 @@
                             <th>Tarde</th>
                         </tr>
                     </thead>
+
                     <tbody>
+
                         <tr>
                             <td>Lunes a viernes</td>
                             <td>08:00 a 12:00</td>
                             <td>16:00 a 20:00</td>
                         </tr>
+
                         <tr>
                             <td>Sábados</td>
                             <td>09:00 a 12:00</td>
                             <td>Cerrado</td>
                         </tr>
+
                         <tr>
                             <td>Urgencias</td>
                             <td>24hs</td>
                             <td>24hs</td>
                         </tr>
+
                     </tbody>
+
                 </table>
+
             </article>
+
         </section>
+
     </main>
+
+
+    <!-- FOOTER -->
     <footer>
-        <div class="footer-marca"> <span>La Mary</span>
-            <p class="lema">"Ciencia, medicina y cariño para asegurar la vida de tu compañero"</p>
-            <p> Gdor. Gral. Balcarce 327, Concordia, Entre Ríos.<br> Lunes a sábado. Urgencias 24hs </p>
+
+        <div class="footer-marca">
+
+            <span>La Mary</span>
+
+            <p class="lema">
+                "Ciencia, medicina y cariño para asegurar la vida de tu compañero"
+            </p>
+
+            <p>
+                Gdor. Gral. Balcarce 327, Concordia, Entre Ríos.<br>
+                Lunes a sábado. Urgencias 24hs
+            </p>
+
         </div>
-        <div class="footer-seccion"> <span>Seguinos</span> <a href="#" target="_blank">Instagram</a> <a href="#"
-                target="_blank">Facebook</a> <a href="#" target="_blank">WhatsApp</a> <a href="#"
-                target="_blank">TikTok</a> </div>
+
+
+        <div class="footer-seccion">
+
+            <span>Seguinos</span>
+
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">WhatsApp</a>
+            <a href="#" target="_blank">TikTok</a>
+
+        </div>
+
     </footer>
+
 </body>
 
 </html>
