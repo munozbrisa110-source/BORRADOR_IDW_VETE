@@ -1,21 +1,15 @@
-/* ESTILOS INSTITUCIONAL */
+/* Página Institucional */
 
-
-/* Fondo general de la página institucional */
-.pagina-institucional {
-    background: linear-gradient(135deg,
-            var(--color-violeta-claro1),
-            var(--color-violeta-claro2));
-     padding: 60px 20px;
+.pagina-institucional { 
+    width: 100%;
+    padding: 30px 15px;
 }
 
-/* Agrupación propiedades idénticas
-(Todos los títulos y subtítulos usan Montserrat y violeta Oscuro)
-*/
-.valores>h2,
-.instalaciones>h2,
-.testimonios>h2,
-.preguntas-frecuentes>h2,
+/* Títulos */
+.valores > h2,
+.instalaciones > h2,
+.testimonios > h2,
+.preguntas-frecuentes > h2,
 .texto-sobre-nosotros h2,
 .bloque-institucional h2,
 .card-valor h3,
@@ -26,11 +20,10 @@
     color: var(--color-violeta-oscuro3);
 }
 
-/* Títulos grandes de sección */
-.valores>h2,
-.instalaciones>h2,
-.testimonios>h2,
-.preguntas-frecuentes>h2 {
+.valores > h2,
+.instalaciones > h2,
+.testimonios > h2,
+.preguntas-frecuentes > h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
@@ -39,62 +32,12 @@
     margin-bottom: 35px;
 }
 
-/* Tipografía Roboto, color gris y espaciado*/
-.texto-sobre-nosotros p,
-.bloque-institucional p,
-.texto-testimonio,
-.respuesta-faq p {
-    font-family: var(--font-texto);
-    /* Roboto */
-    color: #4a4a4a;
-    line-height: 1.6;
-}
-
-/* Contenedores del bloque principal */
-.valores,
-.mision-vision,
-.instalaciones,
-.testimonios,
-.preguntas-frecuentes {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-/* Fondos y sombras de tarjetas claras (valores e instalaciones) */
-.card-valor,
-.foto-galeria {
-    background-color: var(--color-violeta-claro1);
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.08);
-}
-
-/* Fondos y sombras de tarjetas blancas (testimonios y faq abierta) */
-.card-testimonio,
-.item-faq[open] {
-    background-color: #ffffff;
-    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.06);
-}
-
-/* Tiempos de animación y hover agrupados */
-.card-valor,
-.card-testimonio {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 25px rgba(47, 15, 112, 0.15);
-    }
-}
-
-
-/* Título principal */
 .titulo-institucional {
     text-align: center;
     font-family: var(--font-principal);
     color: var(--color-violeta-oscuro3);
     font-size: 3.2rem;
     font-weight: 800;
-    text-transform: none;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -109,23 +52,34 @@
 }
 
 
-/* SOBRE NOSOTROS */
+/* Textos */
+.texto-sobre-nosotros p,
+.bloque-institucional p,
+.texto-testimonio,
+.respuesta-faq p {
+    font-family: var(--font-texto);
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+
+/* Sobre nosotros */
 .sobre-nosotros {
     display: flex;
     align-items: center;
     gap: 5%;
-    max-width: 1350px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto 75px;
     padding: 20px 0;
 }
 .texto-sobre-nosotros {
+    font-size: 20px;
     width: 50%;
     order: 1;
 }
 .texto-sobre-nosotros h2 {
     font-size: 28px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     text-transform: uppercase;
 }
 .texto-sobre-nosotros h2::after {
@@ -133,7 +87,6 @@
     display: block;
     font-size: 1.2rem;
     margin-top: 5px;
-    color: var(--color-violeta-claro1);
 }
 .texto-sobre-nosotros p {
     color: var(--color-violeta-oscuro1);
@@ -149,12 +102,12 @@
     width: 100%;
     max-height: 480px;
     object-fit: cover;
-    border-radius: 60px 0px 60px 0px;
+    border-radius: 60px 0 60px 0;
     box-shadow: 0 8px 25px rgba(13, 11, 47, 0.15);
 }
 
 
-/* Misión y visión */
+/* Misión y Visión */
 .mision-vision {
     display: flex;
     flex-direction: column;
@@ -167,22 +120,18 @@
 }
 .bloque-institucional h2 {
     font-size: 22px;
-    margin: 0 0 12px 0;
+    margin: 0 0 12px;
 }
 
-
-/* Propiedades que comparten misión y visión */
 .mision-vision .bloque-institucional:first-child,
 .mision-vision .bloque-institucional:last-child {
     width: 85%;
 }
-/* Misión (izquierda) */
 .mision-vision .bloque-institucional:first-child {
     align-self: flex-start;
     border-left: 5px solid var(--color-violeta-oscuro3);
     border-radius: 4px 15px 15px 4px;
 }
-/* Visión (derecha) */
 .mision-vision .bloque-institucional:last-child {
     align-self: flex-end;
     border-right: 5px solid var(--color-violeta-oscuro3);
@@ -190,27 +139,41 @@
 }
 
 
-/* contenedores flex */
-.contenedor-valores,
-.galeria-instalaciones,
-.contenedor-testimonios {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+/* Cards */
+.card-valor,
+.foto-galeria {
+    background-color: var(--color-violeta-claro1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.08);
+}
+.card-testimonio,
+.item-faq[open] {
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(13, 11, 47, 0.06);
+}
+.card-valor,
+.card-testimonio {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-valor:hover,
+.card-testimonio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(47, 15, 112, 0.15);
 }
 
 
-/* Valores (interno) */
+/* Valores */
 .card-valor {
-    width: 280px;
+    width: 100%;
     padding: 30px 20px;
     text-align: center;
 }
+
 .icono-valor {
     font-size: 34px;
     margin-bottom: 12px;
 }
+
 .card-valor h3 {
     font-size: 20px;
     margin: 8px 0;
@@ -222,7 +185,7 @@
 }
 
 
-/* Instalaciones (interno) */
+/* Instalaciones */
 .subtitulo-seccion {
     text-align: center;
     color: var(--color-violeta-oscuro1);
@@ -230,9 +193,10 @@
     margin-bottom: 35px;
     font-size: 16px;
 }
+
 .foto-galeria {
     margin: 0;
-    width: 320px;
+    width: 100%;
     overflow: hidden;
 }
 .foto-galeria img {
@@ -248,16 +212,14 @@
 }
 
 
-/* Testimonios (interno) */
-.contenedor-testimonios {
-    gap: 30px;
-}
+/* Testimonios */
 .card-testimonio {
-    width: 440px;
+    width: 100%;
     padding: 15px;
     border-radius: 15px;
     border-top: 4px solid var(--color-violeta-claro3);
 }
+
 .estrellas {
     font-size: 18px;
     margin-bottom: 12px;
@@ -278,7 +240,7 @@
 }
 
 
-/* Preguntas frecuentes (interno) */
+/* Preguntas frecuentes */
 .contenedor-faq {
     display: flex;
     flex-direction: column;
@@ -299,25 +261,68 @@
     text-align: left;
 }
 .respuesta-faq {
-    padding: 0 18px 18px 18px;
+    padding: 0 18px 18px;
     border-top: 1px solid var(--color-fondo-suave2);
 }
 .respuesta-faq p {
-    margin: 12px 0 0 0;
+    margin: 12px 0 0;
     font-size: 15px;
 }
 
-@media (min-width: 1400px) {
-    .titulo-institucional,
-    .sobre-nosotros,
-    .valores,
-    .mision-vision,
-    .instalaciones,
-    .testimonios,
-    .preguntas-frecuentes {
-        max-width: 1200px;
+/* 1 */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .pagina-institucional {
         width: 100%;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        padding: 30px 20px;
+    }
+    .sobre-nosotros {
+        width: 100%;
+        flex-direction: column;
+    }
+    .texto-sobre-nosotros,
+    .imagen-institucional {
+        width: 100%;
+    }
+    .imagen-institucional {
+        text-align: center;
+    }
+}
+
+
+/* 2 */
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    .pagina-institucional {
+        width: 100%;
+        padding: 40px 30px;
+    }
+    .sobre-nosotros {
+        width: 100%;
+        flex-direction: column;
+    }
+    .texto-sobre-nosotros,
+    .imagen-institucional {
+        width: 100%;
+    }
+    .imagen-institucional {
+        text-align: center;
+    }
+}
+
+
+/* 3 */
+@media screen and (min-width: 1001px) {
+    .pagina-institucional {
+        width: 100%;
+        padding: 50px 40px;
+    }
+    .sobre-nosotros {
+        width: 100%;
+        flex-direction: row;
+    }
+    .texto-sobre-nosotros {
+        width: 50%;
+    }
+    .imagen-institucional {
+        width: 45%;
     }
 }
