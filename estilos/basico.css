@@ -41,3 +41,31 @@ button{
     background: none;
 }
 
+/* TABLAS */
+/* Estilos compartidos por Index y Contacto */
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-violeta-claro1);
+    margin-top: 1rem;
+}
+.tabla th {
+    background-color: var(--color-violeta-claro3);
+    color: var(--color-violeta-oscuro3);
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 1.1rem;
+    font-family: var(--font-principal);
+}
+.tabla td {
+    padding: 1rem;
+    color: var(--color-violeta-oscuro2);
+    border-bottom: 1px dashed var(--color-violeta-oscuro3);
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: var(--font-principal);
+}
+.tabla tr:hover {
+    background-color: var(--color-violeta-claro2);
+}
