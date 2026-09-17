@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Veterinaria La Mary</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="estilos/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos/basico.css">
     <link rel="stylesheet" href="estilos/base.css">
     <link rel="stylesheet" href="estilos/index.css">
-    <!--<link rel="stylesheet" href="estilos/institucional.css">-->
+    
 </head>
 <body>
 
     <header>
             <div class="marca">
-                <img src="assets/imagen/logo1.png" alt="Logo La Mary" class="icono-marca" width="60"> 
+                <img src="assets/imagen/logo1.png" alt="Logo La Mary" class="icono-marca m-2"> 
                 <div class="texto-marca">
                     <h1>La Mary</h1>
                     <h2>Clínica Veterinaria</h2>
@@ -33,16 +34,16 @@
         <section class="container-fluid p-5 ">
             <div class="row align-items-center g-3">
 
-                <article class="col-12 col-md-6 texto-contenedor">
-                    <h2>CUIDAMOS A QUIENES TE ACOMPAÑAN</h2>
-                    <p>
+                <article class="col-12 col-md-6 d-flex  align-items-start flex-column ">
+                    <h2 class="fs-1 fw-semibold titulo-principal ">CUIDAMOS A QUIENES TE ACOMPAÑAN</h2>
+                    <p class="texto-p fs-3 fw-normal">
                         Ofrecemos cuidado médico integral y preventivo para garantizar la salud 
                         y felicidad de tus compañeros del hogar.
                     </p>
-                    <div class="boton-logo" >
+                    <div class="boton-logo p-3 rounded-2 " >
                         <a href="/contactos.html">
                             <img src="/assets/imagen/logo1.png" alt="logo-chico" class="icono-logo">
-                            <span>URGENCIAS</span>
+                            <span class="texto-blanco fs-5">URGENCIAS</span>
                         </a>
                     </div>
                 </article>
@@ -53,15 +54,19 @@
             </div>
         </section>
 
-        <section class="servicios">
-
-            <h2>Nuestros servicios</h2>
-            <div class="icon-huella">
-                <img src="/assets/imagen/logo_patita.png" alt="Huella" class="icono-huella">
+<!--SECCION SERVICIOS-->
+        <section class="container-fluid p-5 d-flex  align-items-center flex-column">
+            <div>
+                <h2 class="titulo-principal fs-1 fw-bolder">Nuestros servicios</h2>
+                <div class="d-flex align-items-center justify-content-center g-1 icon-huella">
+                    <img src="/assets/imagen/logo_patita.png" alt="Huella" width="90px">
+                </div>
             </div>
 
-            <div class="contenedor-sevicios">
+            <div class="container-fluid text-center">
+                <div class="row justify-content-start">
 
+                </div>
                 <article class="card">
                     <h3>Ecografía y Rayos X</h3>
                 </article>
