@@ -53,11 +53,11 @@
 
 /* ESTRUCTURA GENERAL */
 body {
- display: flex;
- flex-direction: column;
- min-height: 100dvh;
- font-family: var(--font-texto);
- background: linear-gradient(135deg,
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+    font-family: var(--font-texto);
+    background: linear-gradient(135deg,
     var(--color-violeta-claro1),
     var(--color-violeta-claro2)
  );
