@@ -156,151 +156,184 @@
         </section>
 
 <!--SECCION PROFESIONALES-->
-        <section class="container-fluid p-5 ">
-            <article class="text-center ">
-                    <h2 class="titulo-principal fs-1 fw-bolder ">Nuestro equipo</h2>
-                    <div class="d-flex align-items-center justify-content-center g-1 icon-huella">
-                        <img src="/assets/imagen/logo_patita.png" alt="Huella" width="90px">
-                    </div>
+        <section class="container p-5 ">
+                <article class="text-center ">
+                        <h2 class="titulo-principal fs-1 fw-bolder ">Nuestro equipo</h2>
+                        <div class="d-flex align-items-center justify-content-center g-1 icon-huella">
+                            <img src="/assets/imagen/logo_patita.png" alt="Huella" width="90px">
+                        </div>
 
-            </article>
-                    
+                </article>
 
-            <article class=" col-12 col-md-6 d-flex  flex-column container-fluid  flex-wrap gap-3 ">
-                        <div class="card  mb-3 " style="max-width: 540px;">
-                                    <!--PRIMER PROFESIONAL-->
-                            <div class="">
-                                <article class="row g-0 prof text-center rounded-2 p-2">
-                                    <div class="col-md-4 mt-2 ">
-                                        <img class="" src="/assets/imagen/8.png" alt="imagen">
+
+                <article class="container">
+                    <div class="row row-cols-1 row-cols-xl-2 g-4 justify-content-center">
+                        
+                        <!-- PROFESIONAL 1 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card card-profesional w-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                                <div class="row g-0 h-100 align-items-center p-3">
+                                    <div class="col-12 col-sm-5 d-flex justify-content-center align-items-center p-2">
+                                        <img src="assets/imagen/8.png" class="img-fluid rounded-circle object-fit-cover foto-profesional" alt="Gaspar Olivie">
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h3 class="card-title titulo-principal fw-semibold fs-2">Gaspar Olivie</h3>
-                                            <p class=" texto-p card-text fw-semibold ">Ecografista | Médico Veterinario Clínico</p>
-                                            
-                                            <div class="accordion accordion-flush" id="acordeon">
-                                                <div class="accordion-item">
+                                    <div class="col-12 col-sm-7">
+                                        <div class="card-body text-center text-sm-start d-flex flex-column justify-content-between p-2">
+                                            <div>
+                                                <h3 class="card-title titulo-principal fw-bold fs-3 mb-1">Dr.Gaspar Olivie</h3>
+                                                <p class="card-text texto-p fw-medium text-muted small mb-3">Ecografista | Médico Veterinario Clínico</p>
+                                            </div>
+                                            <div class="accordion accordion-flush mb-3" id="acordeonGaspar">
+                                                <div class="accordion-item bg-transparent border-0">
                                                     <h2 class="accordion-header">
-                                                    <button class=" texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        <button class="texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed py-2 px-3 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGaspar" aria-expanded="false" aria-controls="collapseGaspar">
+                                                            Más información
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseGaspar" class="boton-logo-claro accordion-collapse collapse rounded-bottom-3" data-bs-parent="#acordeonGaspar">
+                                                        <div class="accordion-body p-3">
+                                                            <p class="texto-p mb-1 fw-bold small">Valor de consulta orientativo: $30.000 | $55.000</p>
+                                                            <p class="texto-p text-muted extra-small mb-0">(El costo suele incluir el estudio ecográfico, las capturas/imágenes impresas o digitales y el informe diagnóstico para el médico cabecera)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                                <a class="btn boton-logo px-4 py-2 rounded-3" href="contactos.html">
+                                                    <span class="texto-blanco fw-bold">Pedir Turno</span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PROFESIONAL 2 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card card-profesional w-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                                <div class="row g-0 h-100 align-items-center p-3">
+                                    <div class="col-12 col-sm-5 d-flex justify-content-center align-items-center p-2">
+                                        <img src="assets/imagen/9.png" class="img-fluid rounded-circle object-fit-cover foto-profesional" alt="Patricia Ocampo">
+                                    </div>
+                                    <div class="col-12 col-sm-7">
+                                        <div class="card-body text-center text-sm-start d-flex flex-column justify-content-between p-2">
+                                            <div>
+                                                <h3 class="card-title titulo-principal fw-bold fs-3 mb-1">Dra.Patricia Ocampo</h3>
+                                                <p class="card-text texto-p fw-medium text-muted small mb-3">Farmacéutica Veterinario | Patóloga Clínico</p>
+                                            </div>
+                                            <div class="accordion accordion-flush mb-3" id="acordeonPatricia">
+                                                <div class="accordion-item bg-transparent border-0">
+                                                    <h2 class="accordion-header">
+                                                        <button class="texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed py-2 px-3 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePatricia" aria-expanded="false" aria-controls="collapsePatricia">
+                                                            Más información
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapsePatricia" class="boton-logo-claro accordion-collapse collapse rounded-bottom-3" data-bs-parent="#acordeonPatricia">
+                                                        <div class="accordion-body p-3">
+                                                            <p class="texto-p mb-1 fw-bold small">Valor de consulta orientativo: $15.000 | $45.000</p>
+                                                            <p class="texto-p text-muted extra-small mb-0">Consulta diagnóstica, interpretación de laboratorios complejos, o formulación magistral personalizada.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                                <a class="btn boton-logo px-4 py-2 rounded-3" href="contactos.html">
+                                                    <span class="texto-blanco fw-bold">Pedir Turno</span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PROFESIONAL 3 -->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card card-profesional w-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                                <div class="row g-0 h-100 align-items-center p-3">
+                                    <div class="col-12 col-sm-5 d-flex justify-content-center align-items-center p-2">
+                                        <img src="assets/imagen/7.png" class="img-fluid rounded-circle object-fit-cover foto-profesional" alt="Ester Avalo">
+                                    </div>
+                                    <div class="col-12 col-sm-7">
+                                        <div class="card-body text-center text-sm-start d-flex flex-column justify-content-between p-2">
+                                            <div>
+                                                <h3 class="card-title titulo-principal fw-bold fs-3 mb-1">Ester Avalo</h3>
+                                                <p class="card-text texto-p fw-medium text-muted small mb-3">Asesora de Tienda | Estilista Canino y Felino</p>
+                                            </div>
+
+                                            <div class="accordion accordion-flush mb-3" id="acordeonEster">
+                                                <div class="accordion-item bg-transparent border-0">
+                                                    <h2 class="accordion-header">
+                                                        <button class="texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed py-2 px-3 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEster" aria-expanded="false" aria-controls="collapseEster">
+                                                            Más información
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseEster" class="boton-logo-claro accordion-collapse collapse rounded-bottom-3" data-bs-parent="#acordeonEster">
+                                                        <div class="accordion-body p-3">
+                                                            <p class="texto-p mb-1 fw-bold small">Valor de consulta orientativo: $15.000 | $35.000</p>
+                                                            <p class="texto-p text-muted extra-small mb-0">(El precio varía según el tamaño de la mascota, el estado del pelo y si es canino o felino)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                                <a class="btn boton-logo px-4 py-2 rounded-3" href="contactos.html">
+                                                    <span class="texto-blanco fw-bold">Pedir Turno</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--PROFESIONAL 4-->
+                        <div class="col d-flex justify-content-center">
+                        <div class="card card-profesional w-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0 h-100 align-items-center p-3">
+                                <div class="col-12 col-sm-5 d-flex justify-content-center align-items-center p-2">
+                                    <img src="assets/imagen/6.png" class="img-fluid rounded-circle object-fit-cover foto-profesional" alt="Veronica Sguerzo">
+                                </div>
+                                <div class="col-12 col-sm-7">
+                                    <div class="card-body text-center text-sm-start d-flex flex-column justify-content-between p-2">
+                                        <div>
+                                            <h3 class="card-title titulo-principal fw-bold fs-3 mb-1">Veronica Sguerzo</h3>
+                                            <p class="card-text texto-p fw-medium text-muted small mb-3">Cirujana Veterinario | Médica Veterinario Clínico</p>
+                                        </div>
+
+                                        <div class="accordion accordion-flush mb-3" id="acordeonVeronica">
+                                            <div class="accordion-item bg-transparent border-0">
+                                                <h2 class="accordion-header">
+                                                    <button class="texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed py-2 px-3 fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVeronica" aria-expanded="false" aria-controls="collapseVeronica">
                                                         Más información
                                                     </button>
-                                                    </h2>
-                                                    <div id="flush-collapseOne" class=" boton-logo-claro accordion-collapse collapse " data-bs-parent="#acordeon">
-                                                        <div class="accordion-body">
-                                                            <p class="texto-p">Valor de consulta orientativo: $30.000 | $55.000</p>
-                                                            <p class="texto-p">(El costo suele incluir el estudio ecográfico, las capturas/imágenes impresas o digitales 
-                                                            y el informe diagnóstico para el médico cabecera)</p>
-                                                        </div>
+                                                </h2>
+                                                <div id="collapseVeronica" class="boton-logo-claro accordion-collapse collapse rounded-bottom-3" data-bs-parent="#acordeonVeronica">
+                                                    <div class="accordion-body p-3">
+                                                        <p class="texto-p mb-1 fw-bold small">Valor de consulta orientativo: $30.000 | $55.000</p>
+                                                        <p class="texto-p text-muted extra-small mb-0">(El procedimiento quirúrgico, anestesia e insumos se presupuestan por separado según el tipo de intervención)</p>
                                                     </div>
-                                                        <a class="btn boton-logo mt-3" href="contactos.html">
-                                                            <span class="texto-blanco">Pedir Turno</span>
-                                                        </a>
                                                 </div>
                                             </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center justify-content-sm-start">
+                                            <a class="btn boton-logo px-4 py-2 rounded-3" href="contactos.html">
+                                                <span class="texto-blanco fw-bold">Pedir Turno</span>
+                                            </a>
                                         </div>
                                     </div>
-                                </article>
+                                </div>
                             </div>
-                                    <!--SEGUNDO PROFESIONAL-->
-                            <article class="row g-0 prof text-center rounded-2 p-2">
-                                        <div class="col-md-4 mt-2 ">
-                                            <img class="" src="/assets/imagen/9.png" alt="imagen">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h3 class="card-title titulo-principal fw-semibold fs-2">Patricia Ocampo</h3>
-                                                <p class=" texto-p card-text fw-semibold ">Farmacéutica Veterinario | Patóloga Clínico</p>
-                                                
-                                                <div class="accordion accordion-flush" id="acordeon">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header">
-                                                        <button class=" texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                            Más información
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne" class=" boton-logo-claro accordion-collapse collapse " data-bs-parent="#acordeon">
-                                                            <div class="accordion-body">
-                                                                <p class="texto-p">Valor de consulta orientativo: $15.000 | $45.000</p>
-                                                                <p class="texto-p">Consulta diagnóstica, interpretación de laboratorios complejos, o 
-                                        formulación magistral personalizada.</p>
-                                                            </div>
-                                                        </div>
-                                                        <a class="btn boton-logo mt-3" href="contactos.html">
-                                                            <span class="texto-blanco">Pedir Turno</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    
-                            </article>
-                                    <!--TERCER PROFESIONAL-->
-                            <article class="row g-0 prof text-center rounded-2 p-2">
-                                        <div class="col-md-4 mt-2 ">
-                                            <img class="" src="/assets/imagen/7.png" alt="imagen">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h3 class="card-title titulo-principal fw-semibold fs-2">Ester Avalo</h3>
-                                                <p class=" texto-p card-text fw-semibold ">Asesora de Tienda | Estilista Canino y Felino</p>
-                                                
-                                                <div class="accordion accordion-flush" id="acordeon">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header">
-                                                        <button class=" texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                            Más información
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne" class=" boton-logo-claro accordion-collapse collapse " data-bs-parent="#acordeon">
-                                                            <div class="accordion-body">
-                                                                <p class="texto-p">Valor de consulta orientativo: $15.000 | $35.000</p>
-                                                                <p class="texto-p">(El precio varía según el tamaño de la mascota, el estado del pelo y
-                                        si es canino o felino)</p>
-                                                            </div>
-                                                        </div>
-                                                        <a class="btn boton-logo mt-3" href="contactos.html">
-                                                            <span class="texto-blanco">Pedir Turno</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                            </article>
-                                    <!--CUARTA PROFESIONAL-->
-                           <article class="row g-0 prof text-center rounded-2 p-2">
-                                        <div class="col-md-4 mt-2 ">
-                                            <img class="" src="/assets/imagen/6.png" alt="imagen">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h3 class="card-title titulo-principal fw-semibold fs-2">Veronica Sguerzo</h3>
-                                                <p class=" texto-p card-text fw-semibold ">Cirujana Veterinario | Médica Veterinario Clínico</p>
-                                                
-                                                <div class="accordion accordion-flush" id="acordeon">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header">
-                                                        <button class=" texto-blanco fw-bolder boton-logo rounded-3 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                            Más información
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne" class=" boton-logo-claro accordion-collapse collapse " data-bs-parent="#acordeon">
-                                                            <div class="accordion-body">
-                                                                <p class="texto-p">Valor de consulta orientativo: $30.000 | $55.000</p>
-                                                                <p class="texto-p">(El procedimiento quirúrgico, anestesia e insumos se presupuestan por separado según el tipo de intervención)</p>
-                                                            </div>
-                                                        </div>
-                                                        <a class="btn boton-logo mt-3" href="contactos.html">
-                                                            <span class="texto-blanco">Pedir Turno</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                            </article>
-                       </div>
-            </article>
-        </section>
+                        </div>
+                    </div>
+
+                    </div>
+                </article>
+            </section>
+
+   
 
         <section class="container-fluid p-5">
             <article class="text-center">
