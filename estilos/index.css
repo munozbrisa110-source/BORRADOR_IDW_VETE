@@ -24,6 +24,9 @@ main{
 .boton-logo {
     background-color: var(--color-violeta-oscuro3);
 }
+.boton-logo-claro{
+    background-color: var(--color-violeta-claro1);
+}
 
 .boton-prof, .boton-info {
     align-items: center;
@@ -36,15 +39,7 @@ main{
     cursor: pointer;
 }
 
-.icono-logo {
-    width: 20px;
-    height: auto;
-    object-fit: contain;
-    border-radius: 2rem;
-}
-
 .imagen{
-    border-radius: 1rem;
     transition:transform 1s ease;
 }
 
@@ -52,12 +47,12 @@ main{
   transform: translateX(30px); 
 }
 
-.videos, .ubicacion, .profesionales{
+.ubicacion{
     max-width: 1500px;
     margin: 0 auto;
 }
 
-.videos h2, .ubicacion h2, .profesionales h2{
+.videos h2, .ubicacion h2 {
     text-align: center;
     color: var(--color-violeta-oscuro3);
     font-size: 2.2rem;
@@ -78,30 +73,19 @@ main{
   background-color: var(--color-violeta-oscuro3);
 }
 
-/*configuracion de los servicios y videos*/
-.contenedor-sevicios, .card-video, .equipo{
-    display: flex;
-    flex-wrap:wrap;
-    gap: 3rem;
-    justify-content: center;
-    gap: 3rem;
-}
-
-
  /*configuracion de las tarjetas*/
-.card{
-    margin-top: 1rem;
-    width: 20rem;
-    padding:1rem;
+.card-servicio{
     background-color: var(--color-violeta-claro1);
-    text-align: center;
-    border-radius: 1rem;
     box-shadow: 0 1px 1.2rem var(--color-violeta-oscuro3);
     transition: transform 1s ease;
 }
 
+.card-servicio:hover{
+    transform: translateY(-10px);
+}
+
 /*letras de servicios y videos*/
-.card h3, .video h3, .ubicacion h3, .equipo h3{
+.video h3, .ubicacion h3, .equipo h3{
     margin: 0;
     font-size: 1.4rem;
     color: var(--color-violeta-oscuro2);
@@ -110,49 +94,26 @@ main{
     text-align: center;
     font-family: var(--font-principal);
 }
-.card:hover{
-    transform: translateY(-10px);
-}
+
 
 /*configuracion de videos*/
 .video{
-    margin-top: 3rem;
     width: 20rem;
-    padding: 8px;
     background-color: var(--color-violeta-claro1);
-    text-align: center;
-    border-radius: 1rem;
     box-shadow: 0 1px 1.2rem var(--color-violeta-oscuro3);
 }
 
- /*imagen de los profesionales*/
-.imagen-prof{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin-top: -5.5rem;
-    z-index: 2; 
-}
  /*carta de los profesionales*/
 .prof{
-    margin-top: 2rem;
-    width: 21rem;
     background-color: var(--color-violeta-claro1);
-    text-align:center;
-    border-radius: 40px;
     box-shadow: 0 1px 1.2rem var(--color-violeta-oscuro3);
-    padding: 1rem;
     transition: transform 1s ease;
-    align-self: flex-start;
 }
 .prof:hover{
     transform: translateY(-10px);
 }
 
-/*boton de informacion de profecionales*/
-.boton-info .informacion p {
-  color: var(--color-violeta-claro1);
-}
+
 
 
 .videos h3{
