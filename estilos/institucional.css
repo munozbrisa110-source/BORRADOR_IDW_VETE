@@ -180,12 +180,10 @@ main{
     }
 
     .institucional .container {
+        width: 100%;
         max-width: 100%;
     }
 
-    .sobre-nosotros-contenido {
-        max-width: 100%;
-    }
 }
 
 /* 2 - tablets */
