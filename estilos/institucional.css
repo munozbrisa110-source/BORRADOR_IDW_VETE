@@ -6,6 +6,10 @@ main {
     width: 100%;
     min-width: 0;
 }
+.institucional {
+    width: 100%;
+    min-width: 0;
+}
 
 /* títulos y fuente */
 .valores h2,
