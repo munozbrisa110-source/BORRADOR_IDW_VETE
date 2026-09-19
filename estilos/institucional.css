@@ -156,45 +156,48 @@
 
 
 /* responsive */
-/* 1 - pantallas pequeñas */
-@media screen and (min-width: 400px) and (max-width: 700px) {
+/* 1 - Celulares */
+@media (max-width: 767px) {
 
     .titulo-institucional {
         font-size: 2.4rem;
     }
+
     .valores h2,
     .instalaciones h2,
     .testimonios h2,
     .preguntas-frecuentes h2 {
         font-size: 25px;
     }
+
     .bloque-institucional {
         width: 100%;
     }
-
 }
 
-/* 2 - tablets */
-@media screen and (min-width: 701px) and (max-width: 1000px) {
+
+/* 2 - Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
 
     .titulo-institucional {
         font-size: 2.8rem;
     }
+
     .bloque-institucional {
         width: 90%;
     }
-
 }
 
-/* 3 - escritorio */
-@media screen and (min-width: 1001px) {
+
+/* 3 - Escritorio */
+@media (min-width: 992px) {
 
     .bloque-institucional {
         width: 85%;
     }
+
     .institucional .container {
         width: 100%;
         max-width: 1500px;
     }
-
 }
