@@ -185,6 +185,9 @@ main {
         width: 100%;
         max-width: 100%;
     }
+    .institucional .container-fluid {
+    width: 100%;
+}
 }
 
 /* 2 - tablets */
