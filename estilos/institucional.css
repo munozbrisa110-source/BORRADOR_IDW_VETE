@@ -156,46 +156,40 @@
 
 
 /* responsive */
-/* 1 - Celulares */
+/* 1 */
 @media (max-width: 767px) {
 
     .titulo-institucional {
         font-size: 2.4rem;
     }
-
     .valores h2,
     .instalaciones h2,
     .testimonios h2,
     .preguntas-frecuentes h2 {
         font-size: 25px;
     }
-
     .bloque-institucional {
         width: 100%;
     }
 }
 
-
-/* 2 - Tablets */
+/* 2 */
 @media (min-width: 768px) and (max-width: 991px) {
 
     .titulo-institucional {
         font-size: 2.8rem;
     }
-
     .bloque-institucional {
         width: 90%;
     }
 }
 
-
-/* 3 - Escritorio */
+/* 3 */
 @media (min-width: 992px) {
 
     .bloque-institucional {
         width: 85%;
     }
-
     .institucional .container {
         width: 100%;
         max-width: 1500px;
