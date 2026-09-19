@@ -194,7 +194,7 @@ main {
 
 
 /* TABLET: de 481px a 768px */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 830px) {
 
     .titulo-institucional {
         font-size: 2.8rem;
@@ -207,7 +207,7 @@ main {
 
 
 /* DESKTOP: desde 769px */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 831px) {
 
     .bloque-institucional {
         width: 85%;
