@@ -165,7 +165,7 @@ main {
 
 /* responsive */
 /* 1 - pantallas pequeñas */
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     .titulo-institucional {
         font-size: 2.4rem;
@@ -193,8 +193,8 @@ main {
 }
 
 
-/* TABLET: de 481px a 768px */
-@media only screen and (min-width: 481px) and (max-width: 830px) {
+/* T*/
+@media (min-width: 481px) and (max-width: 830px) {
 
     .titulo-institucional {
         font-size: 2.8rem;
@@ -206,8 +206,8 @@ main {
 }
 
 
-/* DESKTOP: desde 769px */
-@media only screen and (min-width: 831px) {
+/* */
+@media (min-width: 831px) {
 
     .bloque-institucional {
         width: 85%;
