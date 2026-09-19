@@ -165,7 +165,7 @@ main {
 
 /* responsive */
 /* 1 - pantallas pequeñas */
-@media screen and (min-width: 400px) and (max-width: 700px) {
+@media screen and (min-width: 400px) and (max-width: 619px) {
 
     .titulo-institucional {
         font-size: 2.4rem;
@@ -192,7 +192,7 @@ main {
 }
 
 /* 2 - tablets */
-@media screen and (min-width: 701px) and (max-width: 1000px) {
+@media screen and (min-width: 619px) and (max-width: 1000px) {
 
     .titulo-institucional {
         font-size: 2.8rem;
