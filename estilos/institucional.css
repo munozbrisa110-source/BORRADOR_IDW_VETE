@@ -1,4 +1,9 @@
 /* Página Institucional */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
 
 /* títulos y fuente */
 .valores h2,
