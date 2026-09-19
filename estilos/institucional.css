@@ -1,9 +1,10 @@
-/* Página Institucional */
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    min-width: 0;
 }
 
 /* títulos y fuente */
