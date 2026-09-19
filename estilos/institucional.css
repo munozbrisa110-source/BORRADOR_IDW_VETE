@@ -185,7 +185,6 @@ main {
         width: 100%;
         max-width: 100%;
     }
-
 }
 
 /* 2 - tablets */
@@ -194,10 +193,10 @@ main {
     .titulo-institucional {
         font-size: 2.8rem;
     }
+
     .bloque-institucional {
         width: 90%;
     }
-
 }
 
 /* 3 - escritorio */
@@ -206,9 +205,9 @@ main {
     .bloque-institucional {
         width: 85%;
     }
+
     .institucional .container {
         width: 100%;
         max-width: 1500px;
     }
-
 }
