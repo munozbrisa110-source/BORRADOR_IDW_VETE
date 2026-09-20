@@ -54,7 +54,6 @@
 /* ESTRUCTURA GENERAL */
 body {
     display: grid;
-    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto 1fr auto;
     min-height: 100dvh;
     font-family: var(--font-texto);
