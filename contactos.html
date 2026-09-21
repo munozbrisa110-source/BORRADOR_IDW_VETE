@@ -14,27 +14,30 @@
 
 <body>
 
-    <header>
-        <div class="marca">
-            <img src="assets/imagen/logo1.png"
-                 alt="Logo La Mary"
-                 class="icono-logo"
-                 width="60">
-
-            <div class="texto-marca">
-                <h1>La Mary</h1>
-                <h2>Clínica Veterinaria</h2>
+    <!-- HEADER RESPONSIVO CON BOOTSTRAP -->
+<header style="background-color: var(--color-violeta-oscuro3, #2f0f70);">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 container-fluid"> <!-- Logo y Marca --> <a href="index.html"
+            class="navbar-brand d-flex align-items-center gap-3 text-white text-decoration-none"> <img
+                src="assets/imagen/logo1.png" alt="Logo La Mary" width="50" height="50"
+                class="img-fluid object-fit-contain">
+            <div>
+                <h1 class="h4 mb-0 fw-bold">La Mary</h1>
+                <h2 class="h6 mb-0 text-uppercase opacity-75">Clínica Veterinaria</h2>
             </div>
-        </div>
-
-        <nav class="navegacion">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="institucional.html">Institucional</a></li>
-                <li><a href="contactos.html" class="activo">Contacto</a></li>
+        </a> <!-- Boton Menu Hamburguesa --> <button class="navbar-toggler border-white" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion"
+            aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <!-- Menú Colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="menuNavegacion">
+            <ul class="navbar-nav gap-2 gap-lg-3 text-center mt-3 mt-lg-0">
+                <li class="nav-item"> <a href="index.html" class="nav-link text-white">Inicio</a> </li>
+                <li class="nav-item"> <a href="institucional.html" class="nav-link text-white">Institucional</a> </li>
+                <li class="nav-item"> <a href="contactos.html" class="nav-link text-white">Contacto</a> </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+
 
 
     <!-- Principal -->
