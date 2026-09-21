@@ -77,8 +77,40 @@ main {
     flex: 1 1 auto;
 }
 
+/* indicador visual para enlaces activos */
+.nav-link.active,
+.navegacion a.activo,
+.navegacion a.active {
+    border-bottom: 3px solid var(--color-violeta-claro3);
+    color: var(--color-violeta-claro1);
+}
 
-/* HEADER */
+/*esrilos y complementos bootstrap */
+footer {
+    border-top: 3px solid var(--color-violeta-oscuro2);
+}
+
+footer span {
+    font-family: var(--font-titulo);
+}
+
+footer p,
+footer a {
+    font-family: var(--font-texto);
+}
+
+/* efecto interactivo para los enlaces de redes sociales en Bootstrap */
+footer a {
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--color-violeta-claro3) !important;
+    transform: translateY(-2px);
+}
+
+
+/* HEADER y footer anterios*/
 /*
 header {
     display: flex;
@@ -190,3 +222,5 @@ footer {
     transform: translateX(5px);
 }
     */
+
+
