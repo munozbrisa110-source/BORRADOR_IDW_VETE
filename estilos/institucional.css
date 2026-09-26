@@ -175,3 +175,14 @@
         font-size: 2.8rem;
     }
 }
+
+@media (min-width: 992px) {
+
+    .bloque-institucional {
+        width: 85%;
+    }
+    .institucional .container {
+        width: 100%;
+        max-width: 1500px;
+    }
+}
