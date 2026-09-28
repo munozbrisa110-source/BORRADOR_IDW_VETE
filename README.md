@@ -2,7 +2,7 @@ Veterinaria_2026
 Introducción al Desarrollo Web 2026
 
 Integrantes:
-Erika Agustina Gutierrez
-Brisa Muñoz
-Walter silva
-Lucrecia Zamora
+Gutierrez, Erika Agustina
+Muñoz, Brisa
+Silva, Walter
+Zamora, Lucrecia
